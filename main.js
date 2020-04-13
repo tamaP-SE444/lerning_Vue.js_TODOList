@@ -72,8 +72,8 @@ new Vue({
             })
             comment.value = ''
         },
-        doChanegeState: function(item){
-            item.state = item.state ? 1 : 0
+        doChangeState: function(item){
+            item.state = item.state ? 0 : 1
         },
         doRemove: function(item){
             var index = this.todos.indexOf(item)
